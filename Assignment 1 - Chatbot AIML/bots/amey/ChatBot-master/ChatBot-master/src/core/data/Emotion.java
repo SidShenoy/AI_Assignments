@@ -1,0 +1,6 @@
+package core.data;
+
+public enum Emotion
+{
+	HAPPY, SAD, ANGRY, GREETING, FAREWELL, QUESTION, CONFUSED, THANKFUL, UNKNOWN, NONE
+}

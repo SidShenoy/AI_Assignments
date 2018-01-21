@@ -1,0 +1,21 @@
+Human: Hola
+Amey: Hi!  I can really feel your smile today.
+Human: WHat is the temperature in Chennai?
+Amey: The temperature in Chennai is 24.999993896484398 Celsius
+Human: Thanks.
+Amey: It was my pleasure.
+Human: any nearby eateries in bits hyd
+Amey: Yup. Would you like to know some?
+Human: yes
+Amey: There are quite a few places,
+		1.	Bits and Bytes at CP.
+		2.	Canteen at the Academic block
+		3.	Chai Coffee Company in front of Mess2.
+		4.	Yumpy's in front of Mess1
+		5. 	And we have the 2 messes of course.
+Human: thanks
+Amey: You're welcome.
+Human: bye
+Amey: Looking forward to seeing you again soon.
+Human: exit
+Amey: Bye. See you later!

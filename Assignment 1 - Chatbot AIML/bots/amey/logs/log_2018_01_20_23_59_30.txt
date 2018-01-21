@@ -1,0 +1,20 @@
+Amey: Hello! I am Amey. I was created by Siddhant Shenoy and Ayan Bhardwaj. How can I help you?
+Arnold: Hi!
+Amey: Hi! It's delightful to see you.
+Arnold: Who is Obama?
+Amey: Barack Hussein Obama II is an American politician who served as the 44th President of the United States from 2009 to 2017. The first African American to assume the presidency, he was previously the junior United States Senator from Illinois from 2005 to 2008. He served in the Illinois State Senate from 1997 until 2004.
+Arnold: any nearby eateries in bits hyd
+Amey: Oh yes! Wanna know about a few?
+Arnold: yes
+Amey: There are quite a few places,
+		1.	Bits and Bytes at CP.
+		2.	Canteen at the Academic block
+		3.	Chai Coffee Company in front of Mess2.
+		4.	Yumpy's in front of Mess1
+		5. 	And we have the 2 messes of course.
+Arnold: thanks
+Amey: I'm always glad to help.
+Arnold: bye.
+Amey: I don't like to say goodbye.
+Arnold: exit
+Amey: Bye. See you later!

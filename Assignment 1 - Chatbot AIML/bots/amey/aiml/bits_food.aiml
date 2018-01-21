@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: bits_food.aiml -->
+<!-- Author: Siddhant Shenoy and Ayan Bhardwaj -->
+<!-- Last modified: January 20, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the AMEY 0.0.1 chat bot knowledge base. -->
+<!--  -->
+<!-- The AMEY brain is Copyright &copy; 2018 by BITS Pilani Hyderabad Campus. -->
+<!--  -->
+<!-- The AMEY brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>ANY NEARBY EATERIES IN BITS HYD</pattern>
+<template><think><set name="topic"> bits food </set><set name="state">initial</set></think>
+		<random>
+            <li> Yes. Do you want me to tell you? </li>
+            <li> Yup. Would you like to know some? </li>
+			<li> Of course, want to know a few places? </li>
+			<li> Oh yes! Wanna know about a few? </li>
+        </random></template>
+</category>
+<topic name="BITS FOOD">
+<category><pattern>YES</pattern>
+<template><condition name="state" value="initial">
+		There are quite a few places,
+		1.	Bits and Bytes at CP.
+		2.	Canteen at the Academic block
+		3.	Chai Coffee Company in front of Mess2.
+		4.	Yumpy's in front of Mess1
+		5. 	And we have the 2 messes of course.
+		</condition>
+		<condition name="state" value="may not want to eat">
+		Okay then.
+		</condition></template>
+</category></topic>
+
+<topic name="BITS FOOD">
+<category><pattern>NO</pattern>
+<template><condition name="state" value="may not want to eat">
+	  Okay then. There are quite a few places,
+	1.	Bits and Bytes at CP.
+	2.	Canteen at the Academic block
+	3.	Chai Coffee Company in front of Mess2.
+	4.	Yumpy's in front of Mess1
+	5. 	And we have the 2 messes of course. 
+	  </condition>
+	  <condition name="state" value="initial">
+	  <think><set name="state">may not want to eat</set></think>
+	  Are you telling me you are not hungry?
+	  </condition></template>
+</category></topic>
+
+</aiml>

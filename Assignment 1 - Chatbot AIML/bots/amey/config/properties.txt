@@ -1,0 +1,8 @@
+url:http://www.alicebot.org
+name:AMEY
+email:callmom-info@pandorabots.com
+gender:male
+botmaster:Siddhant Shenoy and Ayan Bhardwaj
+organization:BITS Pilani Hyderabad Campus
+version:0.0.1
+
