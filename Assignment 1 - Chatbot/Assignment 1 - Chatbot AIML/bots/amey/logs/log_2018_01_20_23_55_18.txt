@@ -1,6 +1,0 @@
-Vegeta: Hello.
-Amey: Hi!  I can really feel your smile today.
-Vegeta: Bye.
-Amey: Looking forward to seeing you again soon.
-Vegeta: exit
-Amey: Bye. See you later!

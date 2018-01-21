@@ -7,6 +7,7 @@ import com.michaelwflaherty.cleverbotapi.CleverBotQuery;
 import java.io.*;
 import java.text.*;
 import java.util.*;
+import java.util.Properties;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import org.json.simple.JSONObject;
@@ -17,14 +18,15 @@ public class Amey {
 	public static void main(String args[])throws Exception
 	{
 		String botname="amey";
-		String path="C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\Assignment 1 - Chatbot\\";
+		String path = "C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\AI_Assignments\\Assignment 1 - Chatbot\\Assignment 1 - Chatbot AIML";
+		
 		Bot bot = new Bot(botname, path);
 		Chat chatSession = new Chat(bot);
 		
 		String input = "",finalResponse;
 		String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter wr = new PrintWriter(path+"bots/amey/logs/log_"+timeStamp+".txt", "UTF-8");
+		PrintWriter wr = new PrintWriter(path+"/bots/amey/logs/log_"+timeStamp+".txt", "UTF-8");
 		
 		System.out.println("---------- All configurations SUCCESSFUL!!! ----------");
 		
@@ -54,7 +56,7 @@ public class Amey {
 					
 							String web_query = "https://api.duckduckgo.com/?q="+input+"&format=json&pretty=1";
 				
-							StringBuilder command = new StringBuilder("powershell cd 'C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\Assignment 1 - Chatbot\\bots\\amey' ; wget '"+web_query+"' -O sampling.txt");	
+							StringBuilder command = new StringBuilder("powershell cd '"+path+"\\bots\\amey' ; wget '"+web_query+"' -O sampling.txt");	
 							
 							//System.out.println(command);
 							
@@ -62,7 +64,7 @@ public class Amey {
 							
 							process.waitFor();
 							
-							String contents = new String(Files.readAllBytes(Paths.get("C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\Assignment 1 - Chatbot\\bots\\amey\\sampling.txt")));
+							String contents = new String(Files.readAllBytes(Paths.get(path+"\\bots\\amey\\sampling.txt")));
 							
 							Gson gson = new GsonBuilder().setPrettyPrinting().create();
 							JsonParser jp = new JsonParser();
@@ -106,7 +108,7 @@ public class Amey {
 			
 			String web_query = "http://api.openweathermap.org/data/2.5/weather?q="+location+"&appid=b070c1ebac40dfa59b8533212cfc1bec";
 			
-			StringBuilder command = new StringBuilder("powershell cd 'C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\Assignment 1 - Chatbot\\bots\\amey' ; wget '"+web_query+"' -O sampling.txt");	
+			StringBuilder command = new StringBuilder("powershell cd '"+path+"\\bots\\amey' ; wget '"+web_query+"' -O sampling.txt");	
 			
 			System.out.println(command);
 			
@@ -114,7 +116,7 @@ public class Amey {
 			
 			process.waitFor();
 			
-			String contents = new String(Files.readAllBytes(Paths.get("C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\Assignment 1 - Chatbot\\bots\\amey\\sampling.txt")));
+			String contents = new String(Files.readAllBytes(Paths.get(path+"\\bots\\amey\\sampling.txt")));
 			
 			Gson gson = new GsonBuilder().setPrettyPrinting().create();
 			JsonParser jp = new JsonParser();

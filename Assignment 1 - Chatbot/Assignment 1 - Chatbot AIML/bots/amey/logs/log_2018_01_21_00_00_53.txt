@@ -1,5 +1,0 @@
-Amey: Hello! I am Amey. I was created by Siddhant Shenoy and Ayan Bhardwaj. How can I help you?
-bla: Hi
-Amey: Hi it's great to see you!
-bla: exit
-Amey: Bye. See you later!
