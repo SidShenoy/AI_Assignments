@@ -4,4 +4,4 @@
 ->  For questions starting with "What",he assumes that the question is about the current temperature in a city whose name is the last word in the question.  
   e.g. "What is the temperature in Hyderabad?" will give you the current temperature in Hyderabad.  
   e.g. "What Hyderabad?" will also give you the current temperature in Hyderabad.  
-->  When the user types "quit", the chat window closes and a log file for the current conversation is automatically created in the "amey/logs" folder.  
+->  When the user types "exit", the chat window closes and a log file for the current conversation is automatically created in the "amey/logs" folder.  
