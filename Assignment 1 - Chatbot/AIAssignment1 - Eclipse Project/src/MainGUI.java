@@ -42,7 +42,7 @@ public class MainGUI {
     JTextArea   chatBox;
     JTextField  usernameChooser;
     JFrame      preFrame;
-    static 	String path="C:\\Users\\Siddhant Shenoy\\Documents\\Sem 2 17-18\\CS F407 - Artificial Intelligence\\Assignments\\AI_Assignments\\Assignment 1 - Chatbot\\Assignment 1 - Chatbot AIML";
+    static 	String path="";
     static Chat chatSession;
     static PrintWriter wr;
 
@@ -60,6 +60,14 @@ public class MainGUI {
                 mainGUI.preDisplay();
             }
         });
+        
+        String splits[] = System.getProperty("user.dir").split("\\\\");
+		splits[splits.length-1] = "Assignment 1 - Chatbot AIML";
+		
+		for(int i=0;i<splits.length;i++)
+			path+=splits[i]+((i==splits.length-1)?"":"\\");
+		
+		System.out.println("path is "+path);
         
         String botname="amey";
 		Bot bot = new Bot(botname, path);

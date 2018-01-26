@@ -1,1 +1,309 @@
-{"coord":{"lon":72.83,"lat":20.42},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":298.166,"pressure":1026.87,"humidity":90,"temp_min":298.166,"temp_max":298.166,"sea_level":1026.96,"grnd_level":1026.87},"wind":{"speed":3.94,"deg":6.00058},"clouds":{"all":0},"dt":1516517148,"sys":{"message":0.0096,"country":"IN","sunrise":1516499224,"sunset":1516539186},"id":1273618,"name":"Daman","cod":200}
+{
+   "Redirect" : "",
+   "DefinitionSource" : "",
+   "AnswerType" : "",
+   "ImageWidth" : 165,
+   "Heading" : "Narendra Modi",
+   "Results" : [
+      {
+         "Text" : "Official site",
+         "Result" : "<a href=\"http://narendramodi.in\"><b>Official site</b></a><a href=\"http://narendramodi.in\"></a>",
+         "Icon" : {
+            "Width" : 16,
+            "URL" : "https://duckduckgo.com/i/narendramodi.in.ico",
+            "Height" : 16
+         },
+         "FirstURL" : "http://narendramodi.in"
+      }
+   ],
+   "Abstract" : "Narendra Damodardas Modi is an Indian politician who is the 16th and current Prime Minister of India, in office since May 2014. He was the Chief Minister of Gujarat from 2001 to 2014, and is the Member of Parliament for Varanasi. Modi, a member of the Bharatiya Janata Party, is a Hindu nationalist and member of the right-wing Rashtriya Swayamsevak Sangh.",
+   "Image" : "https://duckduckgo.com/i/0f9d3f68.jpg",
+   "Definition" : "",
+   "meta" : {
+      "id" : "wikipedia_fathead",
+      "unsafe" : 0,
+      "src_options" : {
+         "source_skip" : "",
+         "skip_qr" : "",
+         "min_abstract_length" : "20",
+         "directory" : "",
+         "skip_abstract_paren" : 0,
+         "is_wikipedia" : 1,
+         "src_info" : "",
+         "skip_image_name" : 0,
+         "is_mediawiki" : 1,
+         "is_fanon" : 0,
+         "skip_abstract" : 0,
+         "language" : "en",
+         "skip_icon" : 0,
+         "skip_end" : "0"
+      },
+      "created_date" : null,
+      "status" : "live",
+      "production_state" : "online",
+      "src_name" : "Wikipedia",
+      "topic" : [
+         "productivity"
+      ],
+      "developer" : [
+         {
+            "url" : "http://www.duckduckhack.com",
+            "name" : "DDG Team",
+            "type" : "ddg"
+         }
+      ],
+      "repo" : "fathead",
+      "example_query" : "nikola tesla",
+      "description" : "Wikipedia",
+      "src_domain" : "en.wikipedia.org",
+      "src_id" : 1,
+      "src_url" : null,
+      "live_date" : null,
+      "attribution" : null,
+      "dev_milestone" : "live",
+      "producer" : null,
+      "perl_module" : "DDG::Fathead::Wikipedia",
+      "maintainer" : {
+         "github" : "duckduckgo"
+      },
+      "blockgroup" : null,
+      "designer" : null,
+      "name" : "Wikipedia",
+      "js_callback_name" : "wikipedia",
+      "is_stackexchange" : null,
+      "tab" : "About",
+      "signal_from" : "wikipedia_fathead",
+      "dev_date" : null
+   },
+   "AbstractText" : "Narendra Damodardas Modi is an Indian politician who is the 16th and current Prime Minister of India, in office since May 2014. He was the Chief Minister of Gujarat from 2001 to 2014, and is the Member of Parliament for Varanasi. Modi, a member of the Bharatiya Janata Party, is a Hindu nationalist and member of the right-wing Rashtriya Swayamsevak Sangh.",
+   "AbstractURL" : "https://en.wikipedia.org/wiki/Narendra_Modi",
+   "ImageHeight" : 200,
+   "Entity" : "infobox",
+   "Infobox" : {
+      "meta" : [
+         {
+            "value" : "Narendra Modi",
+            "data_type" : "string",
+            "label" : "article_title"
+         },
+         {
+            "value" : "infobox",
+            "label" : "template_name",
+            "data_type" : "string"
+         }
+      ],
+      "content" : [
+         {
+            "wiki_order" : 0,
+            "data_type" : "string",
+            "label" : "Born",
+            "value" : "Narendra Damodardas Modi, Sept 17, 1950, Vadnagar, Bombay State, (present-day Gujarat)"
+         },
+         {
+            "label" : "Political party",
+            "data_type" : "string",
+            "value" : "Bharatiya Janata Party",
+            "wiki_order" : 1
+         },
+         {
+            "wiki_order" : 2,
+            "value" : "7, Lok Kalyan Marg",
+            "label" : "Residence",
+            "data_type" : "string"
+         },
+         {
+            "wiki_order" : 3,
+            "value" : "University of Delhi, Gujarat University",
+            "data_type" : "string",
+            "label" : "Alma mater"
+         },
+         {
+            "value" : "Pranab Mukherjee, Ram Nath Kovind",
+            "label" : "President",
+            "data_type" : "string",
+            "wiki_order" : 4
+         },
+         {
+            "data_type" : "string",
+            "label" : "Preceded by",
+            "value" : "Manmohan Singh",
+            "wiki_order" : 5
+         },
+         {
+            "wiki_order" : "102",
+            "value" : "narendramodi",
+            "data_type" : "twitter_profile",
+            "label" : "Twitter profile"
+         },
+         {
+            "value" : "268475866502370",
+            "data_type" : "facebook_profile",
+            "label" : "Facebook profile",
+            "wiki_order" : "104"
+         },
+         {
+            "wiki_order" : "106",
+            "data_type" : "imdb_id",
+            "label" : "IMDb ID",
+            "value" : "nm5177533"
+         },
+         {
+            "label" : "Instance of",
+            "data_type" : "instance",
+            "value" : {
+               "numeric-id" : 5,
+               "entity-type" : "item",
+               "id" : "Q5"
+            },
+            "wiki_order" : "207"
+         }
+      ]
+   },
+   "AbstractSource" : "Wikipedia",
+   "Answer" : "",
+   "ImageIsLogo" : 0,
+   "Type" : "A",
+   "RelatedTopics" : [
+      {
+         "FirstURL" : "https://duckduckgo.com/c/Narendra_Modi",
+         "Icon" : {
+            "Height" : "",
+            "URL" : "",
+            "Width" : ""
+         },
+         "Result" : "<a href=\"https://duckduckgo.com/c/Narendra_Modi\">Narendra Modi Category</a>",
+         "Text" : "Narendra Modi Category"
+      },
+      {
+         "Result" : "<a href=\"https://duckduckgo.com/c/Chief_Ministers_of_Gujarat\">Chief Ministers of Gujarat</a>",
+         "Text" : "Chief Ministers of Gujarat",
+         "FirstURL" : "https://duckduckgo.com/c/Chief_Ministers_of_Gujarat",
+         "Icon" : {
+            "Height" : "",
+            "URL" : "",
+            "Width" : ""
+         }
+      },
+      {
+         "Result" : "<a href=\"https://duckduckgo.com/c/Prime_Ministers_of_India\">Prime Ministers of India</a>",
+         "Text" : "Prime Ministers of India",
+         "FirstURL" : "https://duckduckgo.com/c/Prime_Ministers_of_India",
+         "Icon" : {
+            "Height" : "",
+            "Width" : "",
+            "URL" : ""
+         }
+      },
+      {
+         "Text" : "Leaders of the Lok Sabha",
+         "Result" : "<a href=\"https://duckduckgo.com/c/Leaders_of_the_Lok_Sabha\">Leaders of the Lok Sabha</a>",
+         "Icon" : {
+            "URL" : "",
+            "Width" : "",
+            "Height" : ""
+         },
+         "FirstURL" : "https://duckduckgo.com/c/Leaders_of_the_Lok_Sabha"
+      },
+      {
+         "Result" : "<a href=\"https://duckduckgo.com/c/Rashtriya_Swayamsevak_Sangh_pracharaks\">Rashtriya Swayamsevak Sangh pracharaks</a>",
+         "Text" : "Rashtriya Swayamsevak Sangh pracharaks",
+         "FirstURL" : "https://duckduckgo.com/c/Rashtriya_Swayamsevak_Sangh_pracharaks",
+         "Icon" : {
+            "Width" : "",
+            "URL" : "",
+            "Height" : ""
+         }
+      },
+      {
+         "Result" : "<a href=\"https://duckduckgo.com/c/Chief_ministers_from_Bharatiya_Janata_Party\">Chief ministers from Bharatiya Janata Party</a>",
+         "Text" : "Chief ministers from Bharatiya Janata Party",
+         "FirstURL" : "https://duckduckgo.com/c/Chief_ministers_from_Bharatiya_Janata_Party",
+         "Icon" : {
+            "Width" : "",
+            "URL" : "",
+            "Height" : ""
+         }
+      },
+      {
+         "Text" : "Gujarat University alumni",
+         "Result" : "<a href=\"https://duckduckgo.com/c/Gujarat_University_alumni\">Gujarat University alumni</a>",
+         "Icon" : {
+            "Height" : "",
+            "Width" : "",
+            "URL" : ""
+         },
+         "FirstURL" : "https://duckduckgo.com/c/Gujarat_University_alumni"
+      },
+      {
+         "Text" : "Recipients of the Order of Abdulaziz al Saud",
+         "Result" : "<a href=\"https://duckduckgo.com/c/Recipients_of_the_Order_of_Abdulaziz_al_Saud\">Recipients of the Order of Abdulaziz al Saud</a>",
+         "Icon" : {
+            "Height" : "",
+            "Width" : "",
+            "URL" : ""
+         },
+         "FirstURL" : "https://duckduckgo.com/c/Recipients_of_the_Order_of_Abdulaziz_al_Saud"
+      },
+      {
+         "FirstURL" : "https://duckduckgo.com/c/Members_of_the_Gujarat_Legislative_Assembly",
+         "Icon" : {
+            "Height" : "",
+            "Width" : "",
+            "URL" : ""
+         },
+         "Result" : "<a href=\"https://duckduckgo.com/c/Members_of_the_Gujarat_Legislative_Assembly\">Members of the Gujarat Legislative Assembly</a>",
+         "Text" : "Members of the Gujarat Legislative Assembly"
+      },
+      {
+         "Text" : "Indian Hindus",
+         "Result" : "<a href=\"https://duckduckgo.com/c/Indian_Hindus\">Indian Hindus</a>",
+         "Icon" : {
+            "URL" : "",
+            "Width" : "",
+            "Height" : ""
+         },
+         "FirstURL" : "https://duckduckgo.com/c/Indian_Hindus"
+      },
+      {
+         "Icon" : {
+            "Height" : "",
+            "Width" : "",
+            "URL" : ""
+         },
+         "FirstURL" : "https://duckduckgo.com/c/Lok_Sabha_members_from_Uttar_Pradesh",
+         "Text" : "Lok Sabha members from Uttar Pradesh",
+         "Result" : "<a href=\"https://duckduckgo.com/c/Lok_Sabha_members_from_Uttar_Pradesh\">Lok Sabha members from Uttar Pradesh</a>"
+      },
+      {
+         "FirstURL" : "https://duckduckgo.com/c/University_of_Delhi_alumni",
+         "Icon" : {
+            "Height" : "",
+            "URL" : "",
+            "Width" : ""
+         },
+         "Result" : "<a href=\"https://duckduckgo.com/c/University_of_Delhi_alumni\">University of Delhi alumni</a>",
+         "Text" : "University of Delhi alumni"
+      },
+      {
+         "FirstURL" : "https://duckduckgo.com/c/Gujarati_people",
+         "Icon" : {
+            "Width" : "",
+            "URL" : "",
+            "Height" : ""
+         },
+         "Result" : "<a href=\"https://duckduckgo.com/c/Gujarati_people\">Gujarati people</a>",
+         "Text" : "Gujarati people"
+      },
+      {
+         "Text" : "16th Lok Sabha members",
+         "Result" : "<a href=\"https://duckduckgo.com/c/16th_Lok_Sabha_members\">16th Lok Sabha members</a>",
+         "Icon" : {
+            "Height" : "",
+            "URL" : "",
+            "Width" : ""
+         },
+         "FirstURL" : "https://duckduckgo.com/c/16th_Lok_Sabha_members"
+      }
+   ],
+   "DefinitionURL" : ""
+}

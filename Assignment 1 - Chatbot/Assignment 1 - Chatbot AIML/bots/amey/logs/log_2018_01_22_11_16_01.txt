@@ -1,0 +1,13 @@
+Amey: Hello! I am Amey. I was created by Siddhant Shenoy and Ayan Bhardwaj. How can I help you?
+Arnold007: Hi! My name is John Doe.
+Amey: Hi!  I can really feel your smile today.    How can I help you, John.
+Arnold007: What is the temperature in Delhi?
+Amey: The temperature in Delhi is 18.999993896484398 Celsius
+Arnold007: Who is Narendra Modi?
+Amey: Narendra Damodardas Modi is an Indian politician who is the 16th and current Prime Minister of India, in office since May 2014. He was the Chief Minister of Gujarat from 2001 to 2014, and is the Member of Parliament for Varanasi. Modi, a member of the Bharatiya Janata Party, is a Hindu nationalist and member of the right-wing Rashtriya Swayamsevak Sangh.
+Arnold007: Thanks. You are very good.
+Amey: It was my pleasure.    No, are you?
+Arnold007: Bye.
+Amey: Have a great journey until next time.
+Arnold007: exit
+Amey: Bye. See you later!
