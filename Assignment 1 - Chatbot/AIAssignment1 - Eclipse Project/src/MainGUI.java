@@ -61,11 +61,20 @@ public class MainGUI {
             }
         });
         
-        String splits[] = System.getProperty("user.dir").split("\\\\");
-		splits[splits.length-1] = "Assignment 1 - Chatbot AIML";
+		System.out.println("Working Directory is : "+System.getProperty("user.dir"));
 		
-		for(int i=0;i<splits.length;i++)
-			path+=splits[i]+((i==splits.length-1)?"":"\\");
+        String splits[] = System.getProperty("user.dir").split("\\\\");
+		
+		int i=0;
+		
+		for(i=splits.length-1;i>=0;i--)
+			if(splits[i].equals("AIAssignment1 - Eclipse Project"))
+				break;
+		
+		splits[i] = "Assignment 1 - Chatbot AIML";
+		
+		for(int j=0;j<=i;j++)
+			path+=splits[j]+((j==i)?"":"\\");
 		
 		System.out.println("path is "+path);
         

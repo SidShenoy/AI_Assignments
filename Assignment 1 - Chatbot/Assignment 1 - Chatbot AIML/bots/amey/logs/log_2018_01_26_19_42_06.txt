@@ -1,0 +1,9 @@
+Amey: Hello! I am Amey. I was created by Siddhant Shenoy and Ayan Bhardwaj. How can I help you?
+Arnie5: Hi
+Amey: Hi! It's delightful to see you.
+Arnie5: Who is Shoaib Akhtar?
+Amey: Shoaib Akhtar is a former Pakistani cricketer, who played all formats of the game for fourteen years. Akhtar is the fastest bowler ever in the history of cricket, who delivered the fastest delivery officially recorded at a top speed of 161.3km/h in a pool match against England in the 2003 Cricket World Cup. Akhtar was nicknamed as "Rawalpindi Express", as a tribute to his hometown and fast bowling. He is the first bowler to break the 100mph barrier as well, which he did twice in his career.
+Arnie5: Very good.
+Amey: I'm glad you're satisfied.
+Arnie5: exit
+Amey: Bye. See you later!

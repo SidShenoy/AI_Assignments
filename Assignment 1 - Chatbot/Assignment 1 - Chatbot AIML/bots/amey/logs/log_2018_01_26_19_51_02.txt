@@ -1,0 +1,11 @@
+Amey: Hello! I am Amey. I was created by Siddhant Shenoy and Ayan Bhardwaj. How can I help you?
+bbdsj: Hola
+Amey: Hi how are you?
+bbdsj: Who is Brad Pitt?
+Amey: William Bradley Pitt is an American actor and producer. He has received multiple awards and nominations including an Academy Award as producer under his own company Plan B Entertainment.
+bbdsj: Thanks.
+Amey: It was my pleasure.
+bbdsj: bye.
+Amey: Goodbye
+bbdsj: exit
+Amey: Bye. See you later!
